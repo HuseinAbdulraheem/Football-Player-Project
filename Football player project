@@ -1,0 +1,37 @@
+welcome = "        Welcome to the football Game!"
+print(welcome)
+
+name = ("Please write your name: ")
+print(name)
+user = input()
+
+user_name = ("Hello " + user + " ,Let's start the game!")
+print(user_name)
+
+guess = "Go ahead and guess where is Cristiano Ronaldo from? choose from the list:"
+print(guess)
+
+
+Country_list = ("Spain, Portugal, Mexico")
+print(Country_list)
+user_guess = input()
+
+if user_guess == "Spain":
+    print("wrong guess")
+    print("Please restart the game and try again.")
+if user_guess == "Mexico":
+    print("wrong guess")
+    print("Please restart the game and try again.")
+if user_guess == "Portugal":
+    print("That's correct!")
+    
+    player = (user +" go ahead and guess the number on his t-shirt, choose a number from 1 to 10:")
+    print(player)
+    user_player = (int(input()))
+    
+    if user_player == 10:
+        print("That's correct!")
+    else:
+            print("That's wrong")
+    
+
